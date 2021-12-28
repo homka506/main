@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="125" viewBox="0 0 125 125">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0a99ab;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_193);
+      }
+    </style>
+    <filter id="Rectangle_193" x="0" y="0" width="125" height="125" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="left" transform="translate(-295 -760)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 295, 760)">
+      <rect id="Rectangle_193-2" data-name="Rectangle 193" class="cls-1" width="65" height="65" rx="32.5" transform="translate(30 20)"/>
+    </g>
+    <path id="_-Icon-Color" data-name="🔹-Icon-Color" class="cls-2" d="M.875,8.51,8.521.864a2.94,2.94,0,0,1,4.163,0L20.33,8.51a2.961,2.961,0,0,1-2.1,5.048l-7.5-4-7.788,4A2.953,2.953,0,0,1,.875,8.51Z" transform="translate(351.016 822.571) rotate(-90)"/>
+  </g>
+</svg>
